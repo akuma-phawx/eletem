@@ -44,8 +44,18 @@ onUnmounted(() => {
         {{ timeRemaining.seconds }} seconds</span
       >
     </div>
-    <button class="mt-3 btn btn-primary" @click="surprise">
-      Click for a surprise
-    </button>
+    <div class="button-container">
+      <v-btn color="primary" size="small" class="mt-2 mr-2" @click="surprise"
+        >Click for a surprise</v-btn
+      >
+      <a
+        href="https://www.notion.so/Our-Virtual-Home-c74c43be623a4df99fedffe71eee11af
+        "
+        target="_blank"
+        ><v-btn color="secondary" class="mt-2" size="small" variant="outlined"
+          >Go to notion</v-btn
+        >
+      </a>
+    </div>
   </div>
 </template>
