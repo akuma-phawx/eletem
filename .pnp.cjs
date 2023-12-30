@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vite", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:5.0.10"],\
           ["vue", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:3.3.13"],\
+          ["vue-router", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:4.2.5"],\
           ["vue-tsc", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:1.8.27"],\
           ["vuetify", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:3.4.9"]\
         ],\
@@ -600,6 +601,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@vue/devtools-api", [\
+      ["npm:6.5.1", {\
+        "packageLocation": "../../.yarn/berry/cache/@vue-devtools-api-npm-6.5.1-a00bfbc22f-10c0.zip/node_modules/@vue/devtools-api/",\
+        "packageDependencies": [\
+          ["@vue/devtools-api", "npm:6.5.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@vue/language-core", [\
       ["npm:1.8.27", {\
         "packageLocation": "../../.yarn/berry/cache/@vue-language-core-npm-1.8.27-9bfee75b73-10c0.zip/node_modules/@vue/language-core/",\
@@ -1004,6 +1014,7 @@ const RAW_RUNTIME_STATE =
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vite", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:5.0.10"],\
           ["vue", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:3.3.13"],\
+          ["vue-router", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:4.2.5"],\
           ["vue-tsc", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:1.8.27"],\
           ["vuetify", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:3.4.9"]\
         ],\
@@ -1998,6 +2009,29 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/typescript",\
           "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vue-router", [\
+      ["npm:4.2.5", {\
+        "packageLocation": "../../.yarn/berry/cache/vue-router-npm-4.2.5-3479f41e41-10c0.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "npm:4.2.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:4.2.5", {\
+        "packageLocation": "./.yarn/__virtual__/vue-router-virtual-fa8a0a8d3d/3/.yarn/berry/cache/vue-router-npm-4.2.5-3479f41e41-10c0.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:4.2.5"],\
+          ["@types/vue", null],\
+          ["@vue/devtools-api", "npm:6.5.1"],\
+          ["vue", "virtual:1d4b7cfe9b5026a39f06f3a8b207bf2c3dfa664a01624f0e953676f3e6d06d94bb67ed4705fb9eb0aa746465dd1c4d1a3bbc68011f1ce8cd92e49a11ce797e0b#npm:3.3.13"]\
+        ],\
+        "packagePeers": [\
+          "@types/vue",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\
