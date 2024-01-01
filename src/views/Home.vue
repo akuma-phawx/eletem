@@ -11,5 +11,10 @@ import Countdown from "../components/Countdown.vue";
         >Check our timeline ❤️</router-link
       >
     </div>
+    <div class="mt-3">
+      <router-link to="happy-new-year" class="link-primary text-decoration-none"
+        >🎉 Click me for a happy new year eletem 🎉
+      </router-link>
+    </div>
   </div>
 </template>
